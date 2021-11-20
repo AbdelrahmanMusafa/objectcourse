@@ -454,13 +454,13 @@ z-index: 88888;
     height: 100vh;
     background: #F7F7F7;
     top: 0;
-    right: 430px;
+   left: -140%;
     z-index: 888890;
     padding: 0 0 0 0;
     padding: 10px;
     }
     .navbar .navbar-nav.sh{
-        right:  54px;
+    left: 0%;
         transition: .4s;
         -webkit-transition: .4s;
         -moz-transition: .4s;
@@ -468,7 +468,7 @@ z-index: 88888;
         -o-transition: .4s;
 }
     .navbar .navbar-nav.hide{
-        right:  430px;
+        left:  -140%;
         transition: .4s;
         -webkit-transition: .4s;
         -moz-transition: .4s;
@@ -561,8 +561,7 @@ opacity: 0;
 .home{
     background-image: linear-gradient(
 180deg,#273c66 0%,#0eb582 100%);
-padding: 10px 0;
-height: 100vh;
+padding: 30px 0;
 overflow: hidden;
 
 }
